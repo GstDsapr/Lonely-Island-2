@@ -1,0 +1,204 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "png:gui/title.png",
+            "posX" : -202,
+            "posY" : 30,
+            "width" : 400,
+            "height" : 78,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+			"hoverText": "§l愉快地一个人玩耍",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+		"multiplayer":
+        {
+            "text" : "menu.multiplayer",
+			"hoverText": "§l为什么你有小伙伴",
+            "posX" : 2,
+            "posY" : 48,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "introduction":
+        {
+            "text" : "整合包特殊魔改介绍",
+			"hoverText": "§l整挺好",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "custom.introduction"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "模组列表",
+			"hoverText": "§l简简单单",
+            "posX" : 2,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+			"hoverText": "§l选项",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+			"hoverText": "§l怒跳Game",
+            "posX" : 2,
+            "posY" : 144,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "languages":
+        {
+            "text" : "选择语言",
+			"hoverText": "§l别问我为啥默认英语",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "resoursecepacks":
+        {
+            "text" : "选择材质包",
+			"hoverText": "§l资源包文件夹→",
+            "posX" : 2,
+            "posY" : 120,
+            "width" : 78,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options.ressourcepacks"
+            }
+        },
+		
+        "resoursecepacksfolder":
+        {
+            "text" : "+",
+			"hoverText": "§l+",
+            "posX" : 80,
+            "posY" : 120,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openFolder",
+                "folderName" : "resourcepacks"
+            }
+        },
+		
+        "mcbbs":
+        {
+            "text" : "整合包原帖",
+			"hoverText": "§l一定要记得顶帖啊",
+            "posX" : -100,
+            "posY" : 144,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+                "link" : "https://www.mcbbs.net/thread-1042868-1-1.html"
+            }
+        }
+    },
+    
+    "texts":
+    {
+        "versionInfo":
+        {
+            "text" : "§3#username#§f，§b欢迎游玩§4天§6空§e孤§2岛§b2 §f当前版本:§e2.3.0",
+            "posX" : -300,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -50,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "file:txt:spl/texts.txt"
+        },
+		"background":
+        {
+			"image" : "png:gui/bg.png",
+			"mode" : "stretch"
+        }
+    }
+}

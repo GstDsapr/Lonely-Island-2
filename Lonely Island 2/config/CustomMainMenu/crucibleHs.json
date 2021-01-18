@@ -1,0 +1,91 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/transparent.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+		"crucibleHs":
+		{
+			"text": "坩埚支持的所有热源",
+			"posX": -200,
+			"posY": -30,
+			"width": 98,
+			"height": 20,
+			"action":
+			{
+				"type": "openGui",
+				"gui": "custom.crucibleHs"
+			}
+		},
+		"crucibleR":
+		{
+			"text": "坩埚的所有融化配方",
+			"posX": -200,
+			"posY": -10,
+			"width": 98,
+			"height": 20,
+			"action":
+			{
+				"type": "openGui",
+				"gui": "custom.crucibleR"
+			}
+		},
+		"configMT":
+		{
+			"text": "配置文件魔改",
+			"posX": -200,
+			"posY": 10,
+			"width": 98,
+			"height": 20,
+			"action":
+			{
+				"type": "openGui",
+				"gui": "custom.configMT"
+			},
+			"tooltip": "通过修改配置文件达到的魔改"
+		},
+        "return":
+		{
+			"text": "返回主界面",
+			"posX": -200,
+			"posY": 152,
+			"width": 98,
+			"height": 20,
+			"action": 
+			{
+				"type": "openGui",
+				"gui": "custom.mainmenu"
+			}
+		}
+    },
+    
+    "texts":
+    {
+		"home":
+		{
+			"text": "file:txt:/tip/crucible.txt",
+			"posX": -100,
+			"posY": -60,
+			"alignment": "center"
+		}
+    },
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "png:gui/bg.png",
+            "mode" : "stretch"
+        }
+    }
+}
